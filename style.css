@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(24, 180, 24);
+}
+
+.section1{
+    text-align: center;
+    margin-top: 15em;
+}
+
+.section1 p{
+    font-size: 3em;
+    color: white;
+    
+}
+
+.play{
+    width: 120px;
+    height: 50px;
+    box-shadow: 5px;
+    border-radius: 15px;
+    border-style: none;
+    cursor: pointer;
+    margin-right: 2em;
+    font-size: medium;
+    font-weight: bolder;
+    color: rgb(24, 180, 24);
+    /* text-decoration-color: black; */
+    
+
+}
+.cancel{
+    width: 120px;
+    height: 50px;
+    box-shadow: 5px;
+    border-radius: 15px;
+    border-style: none;
+    cursor: pointer;
+    /* margin-right: 2em; */
+    font-size: medium;
+    font-weight: bolder;
+    color: red;
+}
+
+
+ .point-section{
+    display: flex;
+    
+    padding-left: 5em;
+    padding-right: 5em;
+} 
+.you{
+    margin-top: 15px;
+   margin-left: 27em; 
+}
+.you span{
+    color: white;
+    font-size: 5em;
+}
+.you p{
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-left: 15px; */
+}
+
+.win-lose{
+    margin-top: 1.5em;
+    margin-left: 6em;
+}
+
+.win-lose span{
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.win-lose p{
+    font-weight: bold;
+}
+
+
+
+.art-intel{
+    margin-top: 15px;
+    margin-left: 6em;
+}
+.art-intel span{
+    color: white;
+    font-size: 5em;
+}
+.art-intel p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.images{
+    width: 350px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.images img{
+    width: 100%;
+    height: auto;
+}
+
+.left-hand{
+    margin-left: 10em;
+}
+
+.right-hand{
+    transform: scaleX(-1);
+    margin-left: 20em;
+}
+
+.buttons {
+    position: fixed;
+    bottom: 30px;
+    left: 42%; 
+    display:flex;
+    justify-content: center;
+    gap: 60px;
+   
+}
+
+.buttons button{
+    background-color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    height: 10vh;
+    width: 40px;
+}
+
+.buttons button:hover{
+    background-color: rgb(238, 223, 21);
+}
+
+
+
+
